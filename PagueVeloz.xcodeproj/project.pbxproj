@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2229C2BD18B55D5600566C72 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2229C2BE18B55D5600566C72 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				2229C2C318B55E1800566C72 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				2229C2C218B55D7000566C72 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2229C23018B54E1400566C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2229C22F18B54E1400566C72 /* Foundation.framework */; };
+		8A6277761B44D0840005F0DA /* PVFTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6277741B44D0840005F0DA /* PVFTransfer.h */; };
+		8A6277771B44D0840005F0DA /* PVFTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6277751B44D0840005F0DA /* PVFTransfer.m */; };
+		8ADCA33B1B446496006578E0 /* PagueVeloz-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA32B1B446496006578E0 /* PagueVeloz-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA33C1B446496006578E0 /* PagueVelozFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA32C1B446496006578E0 /* PagueVelozFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA33D1B446496006578E0 /* PagueVelozService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA32D1B446496006578E0 /* PagueVelozService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA33E1B446496006578E0 /* PagueVelozService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA32E1B446496006578E0 /* PagueVelozService.m */; };
+		8ADCA33F1B446496006578E0 /* PVFAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA32F1B446496006578E0 /* PVFAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA3401B446496006578E0 /* PVFAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA3301B446496006578E0 /* PVFAddress.m */; };
+		8ADCA3411B446496006578E0 /* PVFBoleto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA3311B446496006578E0 /* PVFBoleto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA3421B446496006578E0 /* PVFBoleto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA3321B446496006578E0 /* PVFBoleto.m */; };
+		8ADCA3431B446496006578E0 /* PVFCep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA3331B446496006578E0 /* PVFCep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA3441B446496006578E0 /* PVFCep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA3341B446496006578E0 /* PVFCep.m */; };
+		8ADCA3451B446496006578E0 /* PVFCity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA3351B446496006578E0 /* PVFCity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA3461B446496006578E0 /* PVFCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA3361B446496006578E0 /* PVFCity.m */; };
+		8ADCA3471B446496006578E0 /* PVFRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA3371B446496006578E0 /* PVFRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA3481B446496006578E0 /* PVFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA3381B446496006578E0 /* PVFRequest.m */; };
+		8ADCA3491B446496006578E0 /* PVFSMSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADCA3391B446496006578E0 /* PVFSMSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADCA34A1B446496006578E0 /* PVFSMSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCA33A1B446496006578E0 /* PVFSMSMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2229C2C118B55D7000566C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229C22418B54E1400566C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229C22B18B54E1400566C72;
+			remoteInfo = RWUIControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2229C22A18B54E1400566C72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2229C22C18B54E1400566C72 /* libPagueVeloz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPagueVeloz.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229C22F18B54E1400566C72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2229C23D18B54E1400566C72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2229C24018B54E1400566C72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2229C30E18B5636300566C72 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8A6277741B44D0840005F0DA /* PVFTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFTransfer.h; sourceTree = "<group>"; };
+		8A6277751B44D0840005F0DA /* PVFTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFTransfer.m; sourceTree = "<group>"; };
+		8ADCA32B1B446496006578E0 /* PagueVeloz-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PagueVeloz-Prefix.pch"; sourceTree = "<group>"; };
+		8ADCA32C1B446496006578E0 /* PagueVelozFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagueVelozFramework.h; sourceTree = "<group>"; };
+		8ADCA32D1B446496006578E0 /* PagueVelozService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagueVelozService.h; sourceTree = "<group>"; };
+		8ADCA32E1B446496006578E0 /* PagueVelozService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagueVelozService.m; sourceTree = "<group>"; };
+		8ADCA32F1B446496006578E0 /* PVFAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFAddress.h; sourceTree = "<group>"; };
+		8ADCA3301B446496006578E0 /* PVFAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFAddress.m; sourceTree = "<group>"; };
+		8ADCA3311B446496006578E0 /* PVFBoleto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFBoleto.h; sourceTree = "<group>"; };
+		8ADCA3321B446496006578E0 /* PVFBoleto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFBoleto.m; sourceTree = "<group>"; };
+		8ADCA3331B446496006578E0 /* PVFCep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFCep.h; sourceTree = "<group>"; };
+		8ADCA3341B446496006578E0 /* PVFCep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFCep.m; sourceTree = "<group>"; };
+		8ADCA3351B446496006578E0 /* PVFCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFCity.h; sourceTree = "<group>"; };
+		8ADCA3361B446496006578E0 /* PVFCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFCity.m; sourceTree = "<group>"; };
+		8ADCA3371B446496006578E0 /* PVFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFRequest.h; sourceTree = "<group>"; };
+		8ADCA3381B446496006578E0 /* PVFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFRequest.m; sourceTree = "<group>"; };
+		8ADCA3391B446496006578E0 /* PVFSMSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFSMSMessage.h; sourceTree = "<group>"; };
+		8ADCA33A1B446496006578E0 /* PVFSMSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFSMSMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2229C22918B54E1400566C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229C23018B54E1400566C72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2229C22318B54E1400566C72 = {
+			isa = PBXGroup;
+			children = (
+				8ADCA32A1B446496006578E0 /* PagueVeloz */,
+				2229C22E18B54E1400566C72 /* Frameworks */,
+				2229C22D18B54E1400566C72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2229C22D18B54E1400566C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2229C22C18B54E1400566C72 /* libPagueVeloz.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2229C22E18B54E1400566C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2229C22F18B54E1400566C72 /* Foundation.framework */,
+				2229C23D18B54E1400566C72 /* XCTest.framework */,
+				2229C24018B54E1400566C72 /* UIKit.framework */,
+				2229C30E18B5636300566C72 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ADCA32A1B446496006578E0 /* PagueVeloz */ = {
+			isa = PBXGroup;
+			children = (
+				8ADCA34D1B4464B7006578E0 /* Models */,
+				8ADCA32C1B446496006578E0 /* PagueVelozFramework.h */,
+				8ADCA32D1B446496006578E0 /* PagueVelozService.h */,
+				8ADCA32E1B446496006578E0 /* PagueVelozService.m */,
+				8ADCA34C1B4464AD006578E0 /* Requests */,
+				8ADCA34B1B44649E006578E0 /* Supporting Files */,
+			);
+			path = PagueVeloz;
+			sourceTree = "<group>";
+		};
+		8ADCA34B1B44649E006578E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ADCA32B1B446496006578E0 /* PagueVeloz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ADCA34C1B4464AD006578E0 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				8ADCA3311B446496006578E0 /* PVFBoleto.h */,
+				8ADCA3321B446496006578E0 /* PVFBoleto.m */,
+				8ADCA3331B446496006578E0 /* PVFCep.h */,
+				8ADCA3341B446496006578E0 /* PVFCep.m */,
+				8ADCA3371B446496006578E0 /* PVFRequest.h */,
+				8ADCA3381B446496006578E0 /* PVFRequest.m */,
+				8ADCA3391B446496006578E0 /* PVFSMSMessage.h */,
+				8ADCA33A1B446496006578E0 /* PVFSMSMessage.m */,
+				8A6277741B44D0840005F0DA /* PVFTransfer.h */,
+				8A6277751B44D0840005F0DA /* PVFTransfer.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		8ADCA34D1B4464B7006578E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ADCA32F1B446496006578E0 /* PVFAddress.h */,
+				8ADCA3301B446496006578E0 /* PVFAddress.m */,
+				8ADCA3351B446496006578E0 /* PVFCity.h */,
+				8ADCA3361B446496006578E0 /* PVFCity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2229C25718B54E9D00566C72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADCA33F1B446496006578E0 /* PVFAddress.h in Headers */,
+				8ADCA3491B446496006578E0 /* PVFSMSMessage.h in Headers */,
+				8ADCA3411B446496006578E0 /* PVFBoleto.h in Headers */,
+				8ADCA3431B446496006578E0 /* PVFCep.h in Headers */,
+				8ADCA33B1B446496006578E0 /* PagueVeloz-Prefix.pch in Headers */,
+				8ADCA3451B446496006578E0 /* PVFCity.h in Headers */,
+				8ADCA33C1B446496006578E0 /* PagueVelozFramework.h in Headers */,
+				8ADCA33D1B446496006578E0 /* PagueVelozService.h in Headers */,
+				8A6277761B44D0840005F0DA /* PVFTransfer.h in Headers */,
+				8ADCA3471B446496006578E0 /* PVFRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2229C22B18B54E1400566C72 /* PagueVeloz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229C24F18B54E1400566C72 /* Build configuration list for PBXNativeTarget "PagueVeloz" */;
+			buildPhases = (
+				2229C22818B54E1400566C72 /* Sources */,
+				2229C22918B54E1400566C72 /* Frameworks */,
+				2229C22A18B54E1400566C72 /* CopyFiles */,
+				2229C25718B54E9D00566C72 /* Headers */,
+				2229C2BC18B55BEA00566C72 /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagueVeloz;
+			productName = RWUIControls;
+			productReference = 2229C22C18B54E1400566C72 /* libPagueVeloz.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2229C22418B54E1400566C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PVF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = PremierSoft;
+			};
+			buildConfigurationList = 2229C22718B54E1400566C72 /* Build configuration list for PBXProject "PagueVeloz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2229C22318B54E1400566C72;
+			productRefGroup = 2229C22D18B54E1400566C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2229C22B18B54E1400566C72 /* PagueVeloz */,
+				2229C2BD18B55D5600566C72 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2229C2BC18B55BEA00566C72 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers dir\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		2229C2C318B55E1800566C72 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n\n# Ensure that the framework is present in both platorm's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2229C22818B54E1400566C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADCA33E1B446496006578E0 /* PagueVelozService.m in Sources */,
+				8A6277771B44D0840005F0DA /* PVFTransfer.m in Sources */,
+				8ADCA3401B446496006578E0 /* PVFAddress.m in Sources */,
+				8ADCA3421B446496006578E0 /* PVFBoleto.m in Sources */,
+				8ADCA3461B446496006578E0 /* PVFCity.m in Sources */,
+				8ADCA3481B446496006578E0 /* PVFRequest.m in Sources */,
+				8ADCA3441B446496006578E0 /* PVFCep.m in Sources */,
+				8ADCA34A1B446496006578E0 /* PVFSMSMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2229C2C218B55D7000566C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229C22B18B54E1400566C72 /* PagueVeloz */;
+			targetProxy = 2229C2C118B55D7000566C72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2229C24D18B54E1400566C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2229C24E18B54E1400566C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2229C25018B54E1400566C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/PagueVeloz.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagueVeloz/PagueVeloz-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = PagueVeloz;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		2229C25118B54E1400566C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/PagueVeloz.dst;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagueVeloz/PagueVeloz-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = PagueVeloz;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		2229C2BF18B55D5600566C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2229C2C018B55D5600566C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2229C22718B54E1400566C72 /* Build configuration list for PBXProject "PagueVeloz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229C24D18B54E1400566C72 /* Debug */,
+				2229C24E18B54E1400566C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2229C24F18B54E1400566C72 /* Build configuration list for PBXNativeTarget "PagueVeloz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229C25018B54E1400566C72 /* Debug */,
+				2229C25118B54E1400566C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2229C2BE18B55D5600566C72 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229C2BF18B55D5600566C72 /* Debug */,
+				2229C2C018B55D5600566C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2229C22418B54E1400566C72 /* Project object */;
+}
